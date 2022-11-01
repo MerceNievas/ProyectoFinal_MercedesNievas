@@ -1,0 +1,15 @@
+.row{
+    border: 1.5px outset #ce97a4;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+footer{
+    background-color: #ce97a4;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px --2px 5px #999;
+}

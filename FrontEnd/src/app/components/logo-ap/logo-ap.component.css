@@ -1,0 +1,16 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 30px;
+    margin: 5px;
+}
+.ingreso{
+    display: flex;
+    justify-content: flex-end;
+}
