@@ -1,5 +1,5 @@
 .row{
-  padding:20px;  
+  padding:10px;  
 }
 div{
   background-color: #ce97a4;
@@ -11,9 +11,13 @@ div{
   
 @media (min-width: 576px) {
   #fotodeperfil{
-    
-    border-radius: 100%;
-    box-shadow: 3px 3px 3px grey;    
+    position: absolute;
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -10px;
+    z-index: 1;
+    box-shadow: 10px 10px 30px #000000bf;
   }
 }
 @media (max-width: 575px) {
@@ -29,5 +33,11 @@ div{
 }
 #nombre{
   align-items: center
+}
+
+.descripcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
