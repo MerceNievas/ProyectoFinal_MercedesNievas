@@ -1,5 +1,5 @@
 .row{
-  padding:10px;  
+  padding:20px;  
 }
 div{
   background-color: #ce97a4;
@@ -7,15 +7,16 @@ div{
   align-items: center;
   color: aliceblue;
 }
+
 /*estilo de la foto de perfil*/
   
 @media (min-width: 576px) {
-  #fotodeperfil{
-    position: absolute;
+  #fotoPerfil{
+    position: relative;
     border-radius: 50%;
     width: 152px;
     height: 152px;
-    margin-top: -10px;
+    margin-top: -50px;
     z-index: 1;
     box-shadow: 10px 10px 30px #000000bf;
   }
@@ -26,7 +27,7 @@ div{
     border-radius: 50%;
     width: 152px;
     height: 152px;
-    margin-top: -10px;
+    margin-top: -50px;
     z-index: 1;
     box-shadow: 10px 10px 30px #000000bf;  
   }
