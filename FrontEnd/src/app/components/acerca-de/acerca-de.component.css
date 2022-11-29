@@ -14,8 +14,6 @@ div{
   #fotoPerfil{
     position: relative;
     border-radius: 50%;
-    width: 152px;
-    height: 152px;
     margin-top: -50px;
     z-index: 1;
     box-shadow: 10px 10px 30px #000000bf;
@@ -23,10 +21,8 @@ div{
 }
 @media (max-width: 575px) {
   #fotoPerfil{
-    position: absolute;
+    position: relative;
     border-radius: 50%;
-    width: 152px;
-    height: 152px;
     margin-top: -50px;
     z-index: 1;
     box-shadow: 10px 10px 30px #000000bf;  
